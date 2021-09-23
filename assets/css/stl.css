@@ -2,6 +2,24 @@
     DEMO STYLE
 */
 
+
+/* BB STYLE */
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.h3, h3 {
+    font-size: 1.5rem;
+}
+
+
+
+
 /*@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";*/
 body {
     /*font-family: 'Poppins', sans-serif;*/

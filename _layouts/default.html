@@ -26,14 +26,19 @@
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3>BuildBen Docs</h3>
+            <div class="sidebar-header row">
+                <div class="col-3">
+                    <a href="{{ '/' | relative_url }}"><img src="/gh-pages2/assets/images/bb.png" style="height: 30px;"></a>
+                </div>
+                <div class="col-9">
+                    <h3>BuildBen Docs</h3>
+                </div>
             </div>
 
             <ul class="list-unstyled components">
                 <!-- p>Dummy Heading</p -->
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Trial version</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                           {% for item in site.data.navigation %}
                         <li>
