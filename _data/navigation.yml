@@ -1,6 +1,6 @@
 - name: Home
-  link: {{ '/' | relative_url }}
+  link: '/'
 - name: About
-  link: {{ '/about.html' | relative_url }}
+  link: '/about.html'
 - name: Blog
-  link: {{ '/blog.html' | relative_url }}
+  link: '/blog.html'
