@@ -35,15 +35,14 @@
                 <li class="active">
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
+                          {% for item in site.data.navigation %}
                         <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
+                                <a href="{{ item.link | relative_url }}" {% if page.url == item.link %}class="current"{% endif %}>
+                                {{ item.name }}
+                            </a>
+                           </li>
+                        {% endfor %}
+                        
                     </ul>
                 </li>
                 <li>
