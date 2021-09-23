@@ -1,5 +1,5 @@
 <nav>
   {% for item in site.data.navigation %}
-    <a href="{{ item.link | relative_url }}" {% if {{ page.url | relative_url }} == {{ item.link | relative_url }} %}style="color: red;"{% endif %} >{{ item.name }}</a>
+    <a href="{{ item.link | relative_url }}" {% if page.url == item.link %}style="color: red;"{% endif %}>{{ item.name }}</a>
   {% endfor %}
 </nav>
