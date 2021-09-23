@@ -3,4 +3,4 @@
 - name: Prerequisites
   link: '/prerequisites.html'
 - name: Installation
-  link: '/cluster.md'
+  link: '/cluster.html'
